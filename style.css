@@ -1,0 +1,47 @@
+html {
+    font-family: 'Public Sans', sans-serif;
+}
+
+main{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.mural {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.mural .pintura {
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.mural .pintura img {
+    width: 100%;
+}
+
+.mural .pintura .info {
+    position: absolute;
+    color: #ffff;
+    bottom: 40px;
+    left: 20px;
+}
+
+.mural .pintura .info .titulo {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.mural .pintura .info .sub {
+    font-size: 17px;
+    font-weight: 300;
+}
